@@ -57,4 +57,22 @@ mean_values = df_pokemon.mean(numeric_only=True)
 
 # method info dan macam tipe data
 info = df_pokemon.info()
-print("Info DataFrame:\n", info)
+# print("Info DataFrame:\n", info)
+
+# method describe dan statistik
+# print("Statistik Deskriptif:\n", df_pokemon.describe().transpose())
+# print describe include object
+# print("Statistik Deskriptif (termasuk objek):\n", df_pokemon.describe(include=['object']).transpose()) 
+
+# semua kolom/baris describe
+# mean
+# print("Statistik Deskriptif (semua kolom):\n", df_pokemon.mean(numeric_only=True))
+# standard deviasi
+# print("Standard Deviasi:\n", df_pokemon.std(numeric_only=True))
+# min
+# print("Nilai Minimum:\n", df_pokemon.min(numeric_only=True))
+# kemiringan skewness
+# print("Kemiringan (Skewness):\n", df_pokemon.skew(numeric_only=True))
+# kolom tertentu
+print("Statistik Mean (kolom tertentu):\n", df_pokemon[['HP', 'Attack', 'Defense']].mean())
+ 

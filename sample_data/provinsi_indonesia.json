@@ -1,0 +1,192 @@
+[
+    {
+        "Provinsi":"Aceh",
+        "Ibu Kota":"Banda Aceh",
+        "Jumlah Penduduk":5274871
+    },
+    {
+        "Provinsi":"Sumatera Utara",
+        "Ibu Kota":"Medan",
+        "Jumlah Penduduk":14799361
+    },
+    {
+        "Provinsi":"Sumatera Barat",
+        "Ibu Kota":"Padang",
+        "Jumlah Penduduk":5534472
+    },
+    {
+        "Provinsi":"Riau",
+        "Ibu Kota":"Pekanbaru",
+        "Jumlah Penduduk":6575405
+    },
+    {
+        "Provinsi":"Kepulauan Riau",
+        "Ibu Kota":"Tanjung Pinang",
+        "Jumlah Penduduk":2064564
+    },
+    {
+        "Provinsi":"Jambi",
+        "Ibu Kota":"Jambi",
+        "Jumlah Penduduk":3548228
+    },
+    {
+        "Provinsi":"Sumatera Selatan",
+        "Ibu Kota":"Palembang",
+        "Jumlah Penduduk":8438660
+    },
+    {
+        "Provinsi":"Bengkulu",
+        "Ibu Kota":"Bengkulu",
+        "Jumlah Penduduk":2006687
+    },
+    {
+        "Provinsi":"Lampung",
+        "Ibu Kota":"Bandar Lampung",
+        "Jumlah Penduduk":9007848
+    },
+    {
+        "Provinsi":"Bangka Belitung",
+        "Ibu Kota":"Pangkal Pinang",
+        "Jumlah Penduduk":1501072
+    },
+    {
+        "Provinsi":"DKI Jakarta",
+        "Ibu Kota":"Jakarta",
+        "Jumlah Penduduk":10562088
+    },
+    {
+        "Provinsi":"Jawa Barat",
+        "Ibu Kota":"Bandung",
+        "Jumlah Penduduk":49316712
+    },
+    {
+        "Provinsi":"Banten",
+        "Ibu Kota":"Serang",
+        "Jumlah Penduduk":13904744
+    },
+    {
+        "Provinsi":"Jawa Tengah",
+        "Ibu Kota":"Semarang",
+        "Jumlah Penduduk":37103545
+    },
+    {
+        "Provinsi":"DI Yogyakarta",
+        "Ibu Kota":"Yogyakarta",
+        "Jumlah Penduduk":3668719
+    },
+    {
+        "Provinsi":"Jawa Timur",
+        "Ibu Kota":"Surabaya",
+        "Jumlah Penduduk":41149225
+    },
+    {
+        "Provinsi":"Bali",
+        "Ibu Kota":"Denpasar",
+        "Jumlah Penduduk":4362469
+    },
+    {
+        "Provinsi":"Nusa Tenggara Barat",
+        "Ibu Kota":"Mataram",
+        "Jumlah Penduduk":5320092
+    },
+    {
+        "Provinsi":"Nusa Tenggara Timur",
+        "Ibu Kota":"Kupang",
+        "Jumlah Penduduk":5456823
+    },
+    {
+        "Provinsi":"Kalimantan Barat",
+        "Ibu Kota":"Pontianak",
+        "Jumlah Penduduk":5479190
+    },
+    {
+        "Provinsi":"Kalimantan Tengah",
+        "Ibu Kota":"Palangka Raya",
+        "Jumlah Penduduk":2669845
+    },
+    {
+        "Provinsi":"Kalimantan Selatan",
+        "Ibu Kota":"Banjarmasin",
+        "Jumlah Penduduk":4303775
+    },
+    {
+        "Provinsi":"Kalimantan Timur",
+        "Ibu Kota":"Samarinda",
+        "Jumlah Penduduk":3847783
+    },
+    {
+        "Provinsi":"Kalimantan Utara",
+        "Ibu Kota":"Tanjung Selor",
+        "Jumlah Penduduk":701894
+    },
+    {
+        "Provinsi":"Sulawesi Utara",
+        "Ibu Kota":"Manado",
+        "Jumlah Penduduk":2642093
+    },
+    {
+        "Provinsi":"Gorontalo",
+        "Ibu Kota":"Gorontalo",
+        "Jumlah Penduduk":1171681
+    },
+    {
+        "Provinsi":"Sulawesi Tengah",
+        "Ibu Kota":"Palu",
+        "Jumlah Penduduk":3046857
+    },
+    {
+        "Provinsi":"Sulawesi Barat",
+        "Ibu Kota":"Mamuju",
+        "Jumlah Penduduk":1479890
+    },
+    {
+        "Provinsi":"Sulawesi Selatan",
+        "Ibu Kota":"Makassar",
+        "Jumlah Penduduk":9073509
+    },
+    {
+        "Provinsi":"Sulawesi Tenggara",
+        "Ibu Kota":"Kendari",
+        "Jumlah Penduduk":2650685
+    },
+    {
+        "Provinsi":"Maluku",
+        "Ibu Kota":"Ambon",
+        "Jumlah Penduduk":1848923
+    },
+    {
+        "Provinsi":"Maluku Utara",
+        "Ibu Kota":"Sofifi",
+        "Jumlah Penduduk":1337807
+    },
+    {
+        "Provinsi":"Papua Barat",
+        "Ibu Kota":"Manokwari",
+        "Jumlah Penduduk":1134068
+    },
+    {
+        "Provinsi":"Papua Barat Daya",
+        "Ibu Kota":"Sorong",
+        "Jumlah Penduduk":1134068
+    },
+    {
+        "Provinsi":"Papua Pegunungan",
+        "Ibu Kota":"Wamena",
+        "Jumlah Penduduk":1561100
+    },
+    {
+        "Provinsi":"Papua Tengah",
+        "Ibu Kota":"Nabire",
+        "Jumlah Penduduk":1489000
+    },
+    {
+        "Provinsi":"Papua Selatan",
+        "Ibu Kota":"Merauke",
+        "Jumlah Penduduk":1468400
+    },
+    {
+        "Provinsi":"Papua",
+        "Ibu Kota":"Jayapura",
+        "Jumlah Penduduk":2852803
+    }
+]

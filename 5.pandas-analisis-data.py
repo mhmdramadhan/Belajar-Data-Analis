@@ -69,4 +69,32 @@ df = pd.read_csv('sample_data/STEM_Salaries.csv')
 # print(df.sort_values(by=['title','basesalary'])[['title', 'basesalary', 'company']].head(10))  # Mengurutkan berdasarkan kolom 'basesalary' secara menurun
 
 # mengurutkan berdasarkan kolom yang dipilih
-print(df.set_index('title').sort_index(ascending=False)[['basesalary', 'company']].head(10))  # Mengurutkan berdasarkan kolom 'title' secara menaik
+# print(df.set_index('title').sort_index(ascending=False)[['basesalary', 'company']].head(10))  # Mengurutkan berdasarkan kolom 'title' secara menaik
+
+# Menggunakan fungsi pada series dan dataframe
+data = {
+    'nama' : ['Asep', 'Budi', 'Cici'],
+    'gaji_dolar'  : [1000, 2000, 3000],
+    'bonus' : [100, 200, 300],
+    'pengalaman' : [1, 2, 3]
+}
+df = pd.DataFrame(data)
+def status(gaji):
+    if gaji < 1500:
+        return 'Junior'
+    elif gaji < 2500:
+        return 'Middle'
+    else:
+        return 'Senior'
+    
+# menambahkan kolom baru dengan fungsi apply
+df['status'] = df['gaji_dolar'].apply(status)
+def fasilitas(df):
+    if df['status'] == 'Senior' and df['pengalaman'] > 2:
+        return 'Ada Fasilitas'
+    else:
+        return 'Tidak Ada Fasilitas'
+
+# menambahkan kolom baru dengan fungsi apply
+df['fasilitas'] = df.apply(fasilitas, axis=1)
+print(df)    

@@ -47,3 +47,26 @@ df_groupby = df.groupby('Type 1').agg({
     'Sp. Atk': range_func,
 })
 # print(df_groupby)
+
+# Pivot table
+# pivot table untuk mencari rata-rata Total berdasarkan Type 1
+df_data = df.pivot_table(index = ['Type 1', 'Type 2'], values=['Total', 'Attack', 'Defense'], aggfunc=['mean', 'max', 'min'])
+# print(df_data)
+# pivot table untuk mencari rata-rata Attack berdasarkan Type 1 dan Stage
+df_data = df.pivot_table(index='Type 1', columns='Stage', values='Attack', aggfunc='mean')
+# print(df_data)
+
+# Nilai Unique
+df = pd.read_csv('sample_data/STEM_Salaries.csv')
+# mengetahui jumlah nilai unik pada kolom 'title'
+# print(df['title'].nunique())
+# mengetahui nilai unik pada kolom 'title'
+# print(df['title'].unique())
+# mengetahui jumlah nilai berdasarkan kolom 'title'
+# print(df['title'].value_counts())
+
+# mengurutkan dataFrame
+# print(df.sort_values(by=['title','basesalary'])[['title', 'basesalary', 'company']].head(10))  # Mengurutkan berdasarkan kolom 'basesalary' secara menurun
+
+# mengurutkan berdasarkan kolom yang dipilih
+print(df.set_index('title').sort_index(ascending=False)[['basesalary', 'company']].head(10))  # Mengurutkan berdasarkan kolom 'title' secara menaik

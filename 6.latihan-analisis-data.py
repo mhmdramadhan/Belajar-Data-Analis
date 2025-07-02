@@ -11,5 +11,7 @@ df_group_umur = df.groupby(['Tahun', 'Umur']).size()
 # jumlah persentasi perokok berdasarkan umur (sudah ada field persentase)
 df_group_persen = df.groupby('Umur')['Persentase Perokok'].mean()
 
-print(df_group_persen)  
+data_xlsx = pd.read_excel('sample_data/pegawai.xlsx', sheet_name='pegawai', header=[0, 1], engine='openpyxl')
+
+print(data_xlsx.info())  
 
